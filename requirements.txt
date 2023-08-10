@@ -1,5 +1,4 @@
-python
 keras
-tensorflow==2.0
+tensorflow
 PIL
 numpy
