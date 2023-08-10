@@ -1,4 +1,4 @@
 keras
 tensorflow
-PIL
+pillow
 numpy
