@@ -7,7 +7,7 @@ st.title('이미지 분류기')
 st.write('고양이 또는 강아지 사진을 업로드하세요.')
 
 np.set_printoptions(suppress=True)
-model = load_model("keras_Model.h5", compile=False)
+model = load_model("keras_Model.h5", compile=True)
 class_names = open("labels.txt", "r").readlines()
 
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
